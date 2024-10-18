@@ -1,0 +1,9 @@
+{% form_theme genre_form _self %}
+
+<div class="genre-menu">
+    <form class="genre-menu__form js-form-genre-menu"
+          method="GET" action="{{ path('homepage') }}"
+    >
+        {{ form_widget(genre_form.genres) }}
+    </form>
+</div>

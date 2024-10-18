@@ -1,0 +1,17 @@
+.genre-menu {
+  min-width: 200px;
+
+  &__form {
+    label, input {
+      display: inline-block;
+    }
+
+    input {
+      width: 15%;
+    }
+
+    label {
+      width: 80%;
+    }
+  }
+}
